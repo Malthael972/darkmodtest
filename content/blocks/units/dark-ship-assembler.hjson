@@ -4,7 +4,6 @@ name: dark-ship-assembler
 size: 5
 category: units
 research: ship-assembler
-planet: erekir
 requirements: [
   beryllium/150
 ]
