@@ -5,7 +5,6 @@ health: 4000
 reload: 60
 range: 400
 inaccuracy: 0
-shootShake: 2
 rotateSpeed: 3.5
 targetAir: true
 targetGround: true
@@ -20,7 +19,7 @@ shoot: {
   type: ShootPattern
   shots: 2
   shotDelay: 15
-  spread: 2.8
+  shootSpread: 2.8
 }
 
 drawer: {
@@ -48,7 +47,6 @@ shootType: {
   statusDuration: 180
   hitEffect: hitFlameSmall
   lightColor: ff6200
-  heatColor: ff6200
   
   intervalBullet: {
     type: HomingBulletType
