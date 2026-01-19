@@ -4,7 +4,6 @@ name: dark-tank-assembler
 size: 5
 category: units
 research: tank-assembler
-planet: erekir
 requirements: [
   beryllium/150
 ]
