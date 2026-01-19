@@ -9,4 +9,3 @@ Blocks.eruptionDrill.drillTime=30
 Blocks.eruptionDrill.drillTime=30
 Blocks.cliffCrusher.drillTime=30
 Blocks.largeCliffCrusher.drillTime=30
-Blocks.reinforcedPump.pumpAmount= 200 / 60 / 4
