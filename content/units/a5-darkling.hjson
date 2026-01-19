@@ -120,7 +120,7 @@ weapons: [
       shootEffect: sparkShoot
       smokeEffect: shootSmokeTitan
       hitColor: bf92f9
-      shake: 1
+      hitShake: 1
       speed: 0
       keepVelocity: false
       collidesAir: false
