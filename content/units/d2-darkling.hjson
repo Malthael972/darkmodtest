@@ -12,7 +12,6 @@ treadPullOffset: 5
 rotateSpeed: 2.6
 targetAir: true
 targetGround: true
-rotate: true
 faceTarget: true
 itemCapacity: 0
 floorMultiplier: 0.8
