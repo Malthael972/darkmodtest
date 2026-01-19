@@ -12,7 +12,6 @@ treadPullOffset: 3
 rotateSpeed: 3.5
 targetAir: true
 targetGround: true
-rotate: true
 faceTarget: true
 itemCapacity: 0
 floorMultiplier: 0.95
@@ -42,8 +41,8 @@ weapons: [
       height: 7
       speed: 4
       damage: 30
-      splashDamage:10
-      splashDamageRadius:16
+      splashDamage: 10
+      splashDamageRadius: 16
       lifetime: 40
       hitSize: 4
       hitColor: ff0000
