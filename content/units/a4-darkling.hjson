@@ -46,7 +46,7 @@ weapons: [
       damage: 70
       shootEffect: shootBig
       smokeEffect: shootBigSmoke2
-      shake: 1
+      hitShake: 1
       lifetime: 29.76
       rangeOverride: 361.2
       followAimSpeed: 5
