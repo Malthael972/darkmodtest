@@ -13,7 +13,7 @@ hitSize: 12
 engineSize: 0
 fogRadius: 25
 itemCapacity: 0
-setEnginesMirror: [
+engines: [
   {
     x: 8.75
     y: -9.5
