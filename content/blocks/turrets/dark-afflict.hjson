@@ -14,21 +14,19 @@ shootSound: shootBig
 recoil: 3
 cooldownTime: 90
 shootCone: 15
-
 shoot: {
-  type: ShootPattern
+  type: ShootAlternate
   shots: 2
   shotDelay: 15
-  shootSpread: 2.8
+  spread: 2.8
+  barrels: 2
 }
-
 drawer: {
   type: DrawTurret
   parts: []
 }
-
 shootType: {
-  type: HomingBulletType
+  type: MissileBulletType
   speed: 3
   damage: 250
   lifetime: 100
@@ -49,7 +47,7 @@ shootType: {
   lightColor: ff6200
   
   intervalBullet: {
-    type: HomingBulletType
+    type: MissileBulletType
     damage: 8
     width: 9
     height: 9
@@ -88,11 +86,9 @@ shootType: {
   trailLength: 8
   trailWidth: 3
 }
-
-consumes:{ 
-power: 4
+consumes: { 
+  power: 4
 }
-
 category: turret
 requirements: [
   silicon/250
@@ -101,5 +97,5 @@ requirements: [
 ]
 research: afflict
 researchCost: [
-beryllium/15
+  beryllium/15
 ]
