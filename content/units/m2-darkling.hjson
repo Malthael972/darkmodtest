@@ -50,7 +50,7 @@ weapons: [
       lifetime: 40
       trailWidth: 2
       trailLength: 4
-      shake: 1
+      hitShake: 1
       trailEffect: missileTrail
       trailParam: 1.8
       trailInterval: 6
@@ -106,7 +106,7 @@ weapons: [
       lifetime: 40
       trailWidth: 2
       trailLength: 4
-      shake: 1
+      hitShake: 1
       trailEffect: missileTrail
       trailParam: 1.8
       trailInterval: 6
