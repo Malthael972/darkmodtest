@@ -1,6 +1,6 @@
-  name: r1-darkling
-  type: 
-  constructor: builderAI
+  name: "r1-darkling"
+  type: ErekirUnitType
+  constructor: BuilderAI
   coreUnitDock: true
   isEnemy: false
   envDisabled: 0
