@@ -35,12 +35,15 @@ rotateMoveFirst: true
 rotateToBuilding: true
 weapons: [
   {
-    name: "laser-mech"
+    name: "laser-mech-weapon"
     reload: 1
     x: 4
     y: 0
+    shootY: 2
+    recoil: 0
     continuous: true
     mirror: true
+    alternate: false
     bullet: {
       type: ContinuousFlameBulletType
       damage: 60
