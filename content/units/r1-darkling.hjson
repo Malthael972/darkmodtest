@@ -1,5 +1,6 @@
   name: "r1-darkling"
   type: ErekirUnitType
+  constructor: UnitEntity
   controller: BuilderAI
   coreUnitDock: true
   isEnemy: false
