@@ -20,7 +20,7 @@ plans: [
     unit: laser-mech
     requirements: [
       silicon/70
-      granite/50
+      graphite/50
     ]
     time: 1750
   }
