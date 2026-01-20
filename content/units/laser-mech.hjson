@@ -55,10 +55,10 @@ weapons: [
     autoTarget: true
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 30
-      length: 250
-      knockback: 1
-      pierceCap: 2
+      damage: 15
+      length: 200
+      knockback: 2
+      pierceCap: 3
       timescaleDamage: true
       
       // Maroon/dark red colors
