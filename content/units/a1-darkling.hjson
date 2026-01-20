@@ -1,6 +1,7 @@
 name: a1-darkling
 type: flying
 template: ErekirUnitType
+lowAltitude: true
 allowedInPayloads: true
 payloadCapacity: 0
 hovering: true
