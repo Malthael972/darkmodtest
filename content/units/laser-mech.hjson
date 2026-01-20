@@ -28,7 +28,7 @@ hovering: true
 legPhysicsLayer: false
 shadowElevation: 0.1
 groundLayer: 60
-targetAir: false
+targetAir: true
 researchCostMultiplier: 0
 omniMovement: true
 rotateMoveFirst: true
@@ -56,10 +56,9 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       damage: 30
-      length: 130
+      length: 250
       knockback: 1
       pierceCap: 2
-      buildingDamageMultiplier: 0.3
       timescaleDamage: true
       
       // Maroon/dark red colors
