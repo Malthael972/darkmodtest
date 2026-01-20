@@ -1,5 +1,5 @@
 type: CoreBlock
-name: "Core: Dark Bastion"
+name: "dark-core-bastion"
 description: Core of the base. Armored. Once destroyed, all contact with the sector will be lost.
 health: 6500
 armor: 8
