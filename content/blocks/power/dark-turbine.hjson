@@ -1,0 +1,42 @@
+type: ThermalGenerator
+name: "Dark Turbine"
+description: "A mysterious power generator that condenses dark steam into pure energy."
+details: "Functions identically to the standard Turbine Condenser but radiates ominous energy."
+category: power
+group: liquids
+size: 3
+health: 760
+requirements: [
+  beryllium/60
+]
+research: turbine-condenser
+researchCost: [
+  beryllium/15
+]
+attribute: steam
+displayEfficiencyScale: 0.111
+minEfficiency: 8.999
+powerProduction: 13.703711111
+displayEfficiency: false
+effectChance: 0.04
+generateEffect: turbinegenerate
+ambientSound: hum
+ambientSoundVolume: 0.06
+hasLiquids: true
+outputLiquid: water/0.0555556
+liquidCapacity: 60
+fogRadius: 3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawBlurSpin
+      suffix: -rotator
+      rotateSpeed: 5.4
+      blurThresh: 0.01
+    }
+  ]
+}
