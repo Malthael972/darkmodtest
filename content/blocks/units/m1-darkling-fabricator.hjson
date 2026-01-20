@@ -3,7 +3,7 @@ type: UnitFactory
 regionSuffix: "-dark"
 health: 615
 size: 3
-configurable: false
+configurable: true
 consumes: {
 power: 1
 }
@@ -22,7 +22,7 @@ plans: [
       silicon/70
       graphite/50
     ]
-    time: 150
+    time: 1500
   }
 ]
 outputsPayload: true
