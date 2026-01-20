@@ -38,7 +38,6 @@ weapons: [
     name: "laser-mech-weapon"
     shootSound: laser
     mirror: true
-    showStatSprite: false
     rotate: true
     rotateSpeed: 3
     x: 4
@@ -47,7 +46,7 @@ weapons: [
     reload: 1
     cooldownTime: 30
     recoil: 0
-    shake: 0.5
+    hitShake: 0.5
     heatColor: f9350f
     alternate: false
     inaccuracy: 0
@@ -56,7 +55,7 @@ weapons: [
     autoTarget: true
     bullet: {
       type: ContinuousFlameBulletType
-      damage: 60
+      damage: 30
       length: 130
       knockback: 1
       pierceCap: 2
