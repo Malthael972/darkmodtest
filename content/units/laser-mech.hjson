@@ -1,0 +1,63 @@
+name: "laser-mech"
+type: legs
+template: ErekirUnitType
+flying: false
+speed: 0.72
+drag: 0.11
+hitSize: 9
+rotateSpeed: 3
+health: 680
+armor: 4
+legStraightness: 0.3
+stepShake: 0
+legCount: 6
+legLength: 8
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: 0.96
+legForwardScl: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+shadowElevation: 0.1
+groundLayer: 60
+targetAir: false
+researchCostMultiplier: 0
+omniMovement: true
+rotateMoveFirst: true
+rotateToBuilding: true
+weapons: [
+  {
+    name: "laser-mech"
+    reload: 1
+    x: 4
+    y: 0
+    continuous: true
+    mirror: true
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 60
+      length: 130
+      knockback: 1
+      pierceCap: 2
+      buildingDamageMultiplier: 0.3
+      
+      // Maroon/dark red colors
+      colors: [
+        5c1a1a88,  // Very dark maroon (with 0.55 alpha)
+        7a2424b3,  // Dark red-brown (with 0.7 alpha)
+        8b3030cc,  // Medium dark red (with 0.8 alpha)
+        a03d3d,    // Lighter maroon
+        c55050     // Brightest maroon-red at the core
+      ]
+    }
+  }
+]
+research: merui
