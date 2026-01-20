@@ -22,7 +22,7 @@ plans: [
       silicon/70
       graphite/50
     ]
-    time: 1750
+    time: 150
   }
 ]
 outputsPayload: true
