@@ -1,6 +1,6 @@
 type: ErekirUnitType
   name: r1-darkling
-  constructor: UnitEntity::create
+  constructor: builder.AI
   coreUnitDock: true
   isEnemy: false
   envDisabled: 0
