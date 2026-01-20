@@ -16,6 +16,14 @@ plans: [
     ]
     time: 1750
   }
+ {
+    unit: laser-mech
+    requirements: [
+      silicon/70
+      granite/50
+    ]
+    time: 1750
+  }
 ]
 outputsPayload: true
 outputFacing: true
