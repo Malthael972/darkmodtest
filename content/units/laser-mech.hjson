@@ -36,14 +36,24 @@ rotateToBuilding: true
 weapons: [
   {
     name: "laser-mech-weapon"
-    reload: 1
+    shootSound: laser
+    mirror: true
+    showStatSprite: false
+    rotate: true
+    rotateSpeed: 3
     x: 4
     y: 0
-    shootY: 2
+    shootY: 3
+    reload: 1
+    cooldownTime: 30
     recoil: 0
-    continuous: true
-    mirror: true
+    shake: 0.5
+    heatColor: f9350f
     alternate: false
+    inaccuracy: 0
+    continuous: true
+    controllable: true
+    autoTarget: true
     bullet: {
       type: ContinuousFlameBulletType
       damage: 60
@@ -51,6 +61,7 @@ weapons: [
       knockback: 1
       pierceCap: 2
       buildingDamageMultiplier: 0.3
+      timescaleDamage: true
       
       // Maroon/dark red colors
       colors: [
@@ -60,6 +71,9 @@ weapons: [
         a03d3d,    // Lighter maroon
         c55050     // Brightest maroon-red at the core
       ]
+      
+      hitColor: a03d3d
+      lightColor: c55050
     }
   }
 ]
