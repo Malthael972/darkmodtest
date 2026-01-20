@@ -1,7 +1,6 @@
 type: ErekirUnitType
   name: r1-darkling
   coreUnitDock: true
-  controller: BuilderAI
   isEnemy: false
   envDisabled: 0
   range: 60
