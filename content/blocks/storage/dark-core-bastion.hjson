@@ -1,0 +1,26 @@
+type: CoreBlock
+name: "dark-core-bastion"
+description: Core of the base. Armored. Once destroyed, all contact with the sector will be lost.
+health: 6500
+armor: 8
+size: 4
+itemCapacity: 5000
+unitCapModifier: 30
+unitType: evoke
+thrusterLength: 8.5
+squareSprite: false
+incinerates: true
+incinerateNonBuildable: true
+requiresCoreZone: true
+isFirstTier: false
+buildCostMultiplier: 0.7
+buildSpeed: 1.5
+requirements: [
+  graphite/500
+  silicon/500
+  beryllium/500
+]
+category: effect
+alwaysUnlocked: false
+researchCostMultiplier: 0.07
+research: core-bastion
