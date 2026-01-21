@@ -75,6 +75,9 @@ weapons: [
         height: 12
         lifetime: 15
         hitSize: 4
+        pierceCap: 5
+        pierce: true
+        pierceBuilding: true
         hitColor: "#feb380"
         backColor: "#feb380"
         trailColor: "#feb380"
