@@ -18,40 +18,71 @@ floorMultiplier: 0.95
 researchCostMultiplier: 0
 weapons: [
   {
-    name: "spread-weapon"
-    reload: 60
-    x: 8
-    y: 0
+    name: "sniper-weapon"
+    shootSound: shootTank
+    layerOffset: 0.0001
+    reload: 70
+    shootY: 17.75
+    shake: 5
+    recoil: 4
     rotate: true
-    shootSound: shoot
-    bullet: {
+    rotateSpeed: 1
+    mirror: false
+    x: 0
+    y: 0
+    shadow: 28
+    heatColor: f9350f
+    cooldownTime: 80
+      bullet: {
       type: BasicBulletType
-      speed: 10
-      damage: 40
-      width: 8
-      height: 12
-      lifetime: 30
-      fragOnHit:  false
-      fragBullets: 5
-      fragSpread: 10
-      fragVelocityMin: 1.0
-      fragVelocityMax: 1.0
-      pierceCap: 1
+      sprite: missile-large
+      speed: 8
+      damage: 190
+      width: 9.5
+      height: 13
+      lifetime: 18
+      hitSize: 6
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      pierceCap: 2
       pierce: true
-      pierceBuilding: false
-      fragBullet: {
-        type: BasicBulletType
-        speed: 10
-        damage: 20
-        width: 6
-        height: 8
-        lifetime: 15
-        pierceCap: 3
-        pierce: true
-        pierceBuilding: true
-      }
+      pierceBuilding: true
+      hitColor: feb380
+      backColor: feb380
+      trailColor: feb380
+      frontColor: white
+      trailWidth: 3.1
+      trailLength: 8
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
+      splashDamageRadius: 20
+      splashDamage: 50
+      fragOnHit: false
+      fragRandomSpread: 0
+      fragSpread: 10
+      fragBullets: 5
+      fragVelocityMin: 1.0
+      despawnSound: explosionDull 
+      fragBullet: {
+        type: BasicBulletType
+        sprite: missile-large
+        speed: 8
+        damage: 35
+        width: 8
+        height: 12
+        lifetime: 15
+        hitSize: 4
+        hitColor: feb380
+        backColor: feb380
+        trailColor: feb380
+        frontColor: white
+        trailWidth: 2.8
+        trailLength: 6
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        splashDamageRadius: 10
+        splashDamage: 20
+      }
     }
   }
 ]
