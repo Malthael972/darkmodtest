@@ -33,10 +33,12 @@ weapons: [
       lifetime: 30
       fragOnHit:  false
       fragBullets: 5
-      fragSpread: 45
-      pierceCap: 2
+      fragSpread: 10
+      fragVelocityMin: 1.0
+      fragVelocityMax: 1.0
+      pierceCap: 1
       pierce: true
-      pierceBuilding: true
+      pierceBuilding: false
       fragBullet: {
         type: BasicBulletType
         speed: 10
