@@ -1,0 +1,55 @@
+name: "sniper"
+type: tank
+template: ErekirUnitType
+flying: false
+health: 900
+armor: 6
+speed: 0.75
+accel: 0.09
+drag: 0.09
+hitSize: 12
+treadPullOffset: 3
+rotateSpeed: 3.5
+targetAir: true
+targetGround: true
+faceTarget: true
+itemCapacity: 0
+floorMultiplier: 0.95
+researchCostMultiplier: 0
+weapons: [
+  {
+    name: "spread-weapon"
+    reload: 60
+    x: 8
+    y: 0
+    rotate: true
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      speed: 6
+      damage: 40
+      width: 8
+      height: 12
+      lifetime: 30
+      // Makes it spread on hit
+      fragOnHit: true
+      fragBullets: 8
+      fragSpread: 45
+      fragRandomSpread: 15
+      fragVelocityMin: 0.8
+      fragVelocityMax: 1.2
+      // The bullets it spreads into
+      fragBullet: {
+        type: BasicBulletType
+        speed: 5
+        damage: 20
+        width: 6
+        height: 8
+        lifetime: 25
+      }
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+    }
+  }
+]
+research: stell
