@@ -2,8 +2,8 @@ name: "sniper"
 type: tank
 template: ErekirUnitType
 flying: false
-health: 900
-armor: 6
+health: 300
+armor: 4
 speed: 0.75
 accel: 0.09
 drag: 0.09
@@ -21,7 +21,7 @@ weapons: [
     name: "sniper-weapon"
     shootSound: shootTank
     layerOffset: 0.0001
-    reload: 60
+    reload: 600
     inaccuracy: 0
     shootY: 17.75
     shootCone: 1
@@ -35,12 +35,11 @@ weapons: [
     shadow: 28
     heatColor: "#f9350f"
     cooldownTime: 80
-    
-    bullet: {
+      bullet: {
       type: BasicBulletType
       sprite: missile-large
       speed: 10
-      damage: 190
+      damage: 100
       width: 9.5
       height: 13
       lifetime: 80
@@ -70,7 +69,7 @@ weapons: [
         type: BasicBulletType
         sprite: missile-large
         speed: 8
-        damage: 35
+        damage: 16
         width: 8
         height: 12
         lifetime: 15
@@ -87,7 +86,7 @@ weapons: [
         hitEffect: blastExplosion
         despawnEffect: blastExplosion
         splashDamageRadius: 10
-        splashDamage: 20
+        splashDamage: 8
       }
     }
   }
