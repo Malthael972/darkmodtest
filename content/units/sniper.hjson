@@ -42,7 +42,7 @@ weapons: [
       damage: 190
       width: 9.5
       height: 13
-      lifetime: 30
+      lifetime: 60
       hitSize: 6
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
