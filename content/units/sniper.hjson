@@ -26,11 +26,11 @@ weapons: [
     shootSound: shoot
     bullet: {
       type: BasicBulletType
-      speed: 10
+      speed: 6
       damage: 40
       width: 8
       height: 12
-      lifetime: 60
+      lifetime: 30
       fragOnHit:  true
       fragBullets: 10
       fragSpread: 45
