@@ -38,15 +38,15 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: missile-large
-      speed: 8
+      speed: 10
       damage: 190
       width: 9.5
       height: 13
-      lifetime: 18
+      lifetime: 30
       hitSize: 6
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
-      pierceCap: 2
+      pierceCap: 1
       pierce: true
       pierceBuilding: true
       hitColor: "#feb380"
