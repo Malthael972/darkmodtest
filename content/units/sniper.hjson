@@ -33,9 +33,10 @@ weapons: [
       lifetime: 30
       // Makes it spread on hit
       fragOnHit: true
-      fragBullets: 8
-      fragSpread: 45
-      fragRandomSpread: 15
+      fragBullets: 10
+      fragSpread: 60
+      fragRandomSpread: 10
+      fragAngle: 0
       fragVelocityMin: 0.8
       fragVelocityMax: 1.2
       // The bullets it spreads into
