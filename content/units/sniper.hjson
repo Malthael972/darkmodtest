@@ -21,13 +21,14 @@ weapons: [
     name: "sniper-weapon"
     shootSound: shootTank
     layerOffset: 0.0001
-    reload: 900
+    reload: 60
     inaccuracy: 0
     shootY: 17.75
+    shootCone: 1
     shake: 5
     recoil: 4
     rotate: true
-    rotateSpeed: 1
+    rotateSpeed: 4
     mirror: false
     x: 0
     y: 0
