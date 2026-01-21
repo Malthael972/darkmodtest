@@ -3,7 +3,7 @@ type: UnitFactory
 regionSuffix: "-dark"
 health: 615
 size: 3
-configurable: false
+configurable: true
 consumes: {
 power: 1
 }
@@ -15,6 +15,14 @@ plans: [
       beryllium/40
     ]
     time: 1750
+  }
+{
+    unit: sniper
+    requirements: [
+      silicon/70
+      beryllium/50
+    ]
+    time: 2000
   }
 ]
 outputsPayload: true
