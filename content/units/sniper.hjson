@@ -31,16 +31,12 @@ weapons: [
       width: 8
       height: 12
       lifetime: 30
-      fragOnHit:  true
+      fragOnHit:  false
       fragBullets: 5
       fragSpread: 45
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      keepVelocity: true
       pierceCap: 2
       pierce: true
       pierceBuilding: true
-      // The bullets it spreads into
       fragBullet: {
         type: BasicBulletType
         speed: 10
