@@ -17,7 +17,6 @@ itemCapacity: 0
 floorMultiplier: 0.95
 researchCostMultiplier: 0
 weapons: [
-  {
     name: "sniper-weapon"
     shootSound: shootTank
     layerOffset: 0.0001
@@ -84,6 +83,5 @@ weapons: [
         splashDamage: 20
       }
     }
-  }
 ]
 research: stell
