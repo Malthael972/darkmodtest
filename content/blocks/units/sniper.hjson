@@ -24,7 +24,6 @@ weapons: [
     y: 0
     rotate: true
     shootSound: shoot
-    
     bullet: {
       type: BasicBulletType
       speed: 6
