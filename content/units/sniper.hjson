@@ -60,7 +60,7 @@ weapons: [
       despawnEffect: blastExplosion
       splashDamageRadius: 20
       splashDamage: 50
-      fragOnHit: false
+      fragOnHit: true
       fragRandomSpread: 0
       fragSpread: 10
       fragBullets: 5
