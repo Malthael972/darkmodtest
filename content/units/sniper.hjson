@@ -16,7 +16,9 @@ faceTarget: true
 itemCapacity: 0
 floorMultiplier: 0.95
 researchCostMultiplier: 0
+
 weapons: [
+  {
     name: "sniper-weapon"
     shootSound: shootTank
     layerOffset: 0.0001
@@ -32,7 +34,8 @@ weapons: [
     shadow: 28
     heatColor: f9350f
     cooldownTime: 80
-      bullet: {
+    
+    bullet: {
       type: BasicBulletType
       sprite: missile-large
       speed: 8
@@ -61,7 +64,8 @@ weapons: [
       fragSpread: 10
       fragBullets: 5
       fragVelocityMin: 1.0
-      despawnSound: explosionDull 
+      despawnSound: explosionDull
+      
       fragBullet: {
         type: BasicBulletType
         sprite: missile-large
@@ -83,5 +87,7 @@ weapons: [
         splashDamage: 20
       }
     }
+  }
 ]
+
 research: stell
