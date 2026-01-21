@@ -34,6 +34,7 @@ weapons: [
       // Makes it spread on hit
       fragOnHit: true
       fragBullets: 10
+      fragCone: 60
       fragSpread: 45
       fragRandomSpread: 0
       fragAngle: 0
