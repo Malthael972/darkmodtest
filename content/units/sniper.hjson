@@ -26,19 +26,22 @@ weapons: [
     shootSound: shoot
     bullet: {
       type: BasicBulletType
-      speed: 6
+      speed: 10
       damage: 40
       width: 8
       height: 12
-      lifetime: 30
+      lifetime: 60
       // Makes it spread on hit
       fragOnHit: true
       fragBullets: 10
-      fragSpread: 60
+      fragSpread: 30
       fragRandomSpread: 10
       fragAngle: 0
       fragVelocityMin: 0.8
       fragVelocityMax: 1.2
+      pierceCap: 2
+      pierce: true
+      pierceBuilding: true
       // The bullets it spreads into
       fragBullet: {
         type: BasicBulletType
@@ -47,6 +50,9 @@ weapons: [
         width: 6
         height: 8
         lifetime: 25
+        pierceCap: 2
+        pierce: true
+        pierceBuilding: true
       }
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
