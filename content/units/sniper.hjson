@@ -16,6 +16,7 @@ faceTarget: true
 itemCapacity: 0
 floorMultiplier: 0.95
 researchCostMultiplier: 0
+fogRadius: 110
 weapons: [
   {
     name: "sniper-weapon"
